@@ -20,7 +20,7 @@ password:"",
 
   const handleSubmit=(e)=>{
     e.preventDefault();
-    if((inputs.adminusername==="qnovatelabs@arijit") && (inputs.password==="qnovatelabs@#$54321")){
+    if((inputs.adminusername==="qnovatelabs@#$67890") && (inputs.password==="qnovatelabs@#$54321")){
    
    history('/adminpasswordusername6237ef9dc7e813318033b1249883');
     }
