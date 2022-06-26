@@ -25,7 +25,7 @@ function Footer() {
                     <div class=" col-sm-4 col-md col-sm-4  col-12 col">
                         <h5 class="headin5_amrc col_white_amrc pt2" style={{color:"white"}}>Contact Us</h5>
                          <p>Phone No: +91 7501541670 </p>
-                        <p> & +91 8250186278</p>
+                        <p>+91 8250186278</p>
                         <p><strong>Email : </strong> contact@qnovatelabs.com</p>
                         <p>Campus:11, KIIT-TBI, Room No:301, Patia, Bhubanewar, Odisha, 751024</p>
 

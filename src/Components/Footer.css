@@ -29,7 +29,7 @@
   .footer_ul_amrc {
     margin: 0px;
     list-style-type: none;
-    font-size:25px;
+    font-size:20px;
     padding: 0px 0px 10px 0px;
   }
   .footer_ul_amrc li {
@@ -37,11 +37,9 @@
   }
   .footer_ul_amrc li a {
      color: white;
+
   }
-  .footer_ul_amrc li a:hover {
-     color: white;
-    text-decoration: none;
-  }
+ 
   .fleft {
     float: left;
   }

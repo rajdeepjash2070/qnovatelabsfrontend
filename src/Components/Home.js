@@ -57,7 +57,7 @@ const Home = () => {
     <div><img src={Homeimg}  class="img-fluid"/>
     </div>
     <div className="home-text text-right">Welcome to the <span>Future World</span>
-    <h3 className='mt-2'><span style={{color:"rgb(111, 0, 255)"}}>Enroll</span> our classes and <span style={{color:"rgb(111, 0, 255)"}}>develop yourself,</span>be valuable</h3>
+    <h3 className='mt-2'><span style={{color:"rgb(111, 0, 255)"}}>Enroll to </span> our classes and <span style={{color:"rgb(111, 0, 255)"}}>develop yourself, </span>be valuable</h3>
     <div className='home-book'>
     <a href="/bookyourfreesession" class="btn-shine" target="_blank"> Book Your Free Session </a>
     </div>
@@ -76,21 +76,25 @@ const Home = () => {
 
     <div className='d-flex justify-content-center'>
     <div className='row ataltinkeringlab'>
-    <div className='col-md-6 atlvideo'><iframe src="https://www.youtube.com/embed/oHu91kgP6-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+   
     <div className='col-md-6'>
     <div className='text-left atl-text'>Why  Needs <span style={{color:"rgb(88, 0, 230)"}}>ATAL TINKERING LAB (ATL) ?</span></div>
     <p className='mt-4'>
     ATAL Tinkering Lab is designed to help and nurture innovation amongst young innovators. The scheme enables students
-     to explore new ideas, test them and follow the ‘learning by doing approach. Innovation and entrepreneurship have
-      become an integral part of our nation, through which children are introduced to technology innovation by establishing
-       the ATAL Tinkering Lab (ATL) in schools, colleges, and physical innovation centers. Atal Tinkering Lab is the 
+     to explore new ideas, test them and follow the ‘learning by doing approach.Innovation
+     and entrepreneurship have
+     become an integral part of our
+     nation, establishing the
+     ATAL Tinkering Lab (ATL) in
+     schools, colleges, and physical
+     innovation centers has made technology and innovation accessible to the students right from a young age. Atal Tinkering Lab is the 
        flagship initiative of the ATAL Innovation Mission (AIM), the Government of India to cultivate an innovative
        mindset amongst high school students across the country. From ATL students can improve practical intelligence.
         Makes students active learners. Boosts their 
     confidence. Develops logical and analytical abilities and helps students to develop Science & math Intuition. 
     </p>
     </div>
-  
+    <div className='col-md-6 atlvideo'><iframe src="https://www.youtube.com/embed/oHu91kgP6-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     </div>
     </div>
 
@@ -183,9 +187,10 @@ const Home = () => {
   
  </div>
 <h1 className="text-center">What <span style={{color:"rgb(88, 0, 230)"}}>We Offer</span></h1>
-<div className="text-center what-we-offer-text p-4">QNOVATE Labs offers an integrated Science, Technology, Engineering and Math (STEM) program based on future technology for school segment 
-that focus  on technical-world. Also, we are providing physical contact with students, 
-so that students can learn problem-solving strategies and project-based learning. QNOVATE Labs providing an immersive learning experience. 
+<div className="text-center what-we-offer-text p-4">
+QNOVATE Labs offers an integrated Science, Technology, Engineering, and Mathematics (STEM) education based on future
+ technology for the school segment. Also, we are providing physical labs for students, so that they can learn real-life 
+problem-solving strategies and hands-on project-based learning. QNOVATE Labs is the future of technology for students.
 </div>
 <div className='d-flex justify-content-center'>
 <div className='offer row '>
@@ -377,9 +382,9 @@ so that students can learn problem-solving strategies and project-based learning
 </div>
 <div className='d-flex justify-content-center'>
 <div className='whytechforkids row' style={{marginTop:"50px"}}>
-<h1 className='text-center p-4'>Why <span style={{color:"#6517e4"}}>Technology</span> For Kids? </h1>
+<h1 className='text-center pt-4 pb-4'>Why <span style={{color:"#6517e4"}}>Technology</span> For Kids? </h1>
     <img src={WhyTechforkids} className="col-sm-6" alt="why tech for kids"/>
-    <div className="provide-text col-sm-6 p-4">
+    <div className="provide-text col-sm-6">
     
     
     <h3 className='text-left' style={{fontWeight:"bolder"}}>” Your child can learn <span style={{color:"#510cf1"}}>logic, creative thinking, experiment “</span></h3>
@@ -395,9 +400,9 @@ so that students can learn problem-solving strategies and project-based learning
     </div>
 <div className='d-flex justify-content-center'>
 <div className='our-educators row'>
-<div className='col-md-6 our-educators-text'><div className='text-left mt-4 our-edu-header'>Our <span style={{color:"rgb(88, 0, 230)"}}>Expert</span></div>
-<p className='text-left mt-4  our-educators-text' style={{fontFamily:"'Montserrat', sans-serif"}}>QNOVATE Labs follows 4-Step Selection Process for confirming teacher.
- Also, our all the teachers are STEM certified. so your children are taught by the top industrial experts. </p>
+<div className='col-md-6 our-educators-text'><div className='text-left our-edu-header'>Our <span style={{color:"rgb(88, 0, 230)"}}>Expert</span></div>
+<p className='text-left mt-4  our-educators-text' style={{fontFamily:"'Montserrat', sans-serif"}}>We at QNOVATELABS have curated a four-step teacher selection process that sure to get the best industry experts for your child, who are also very passionate
+ about technology. Our teachers are all STEM-certified experts with rich experience in the technological industry. </p>
  <a href='/bookyourfreesession'><button type="button" class="btn"><i class="fa-solid fa-rocket-launch"></i>Book Your Free Session </button>
  </a>
 </div>
@@ -428,7 +433,7 @@ Tinkering Labs, and Experiential Learning have also garnered significant attenti
 <div className='row m-4 collaborate'>
 
 <div className='col-md-6 register' style={{marginTop:"40px"}}>
-<h3 className='text-left'>Would you like to corporate <span style={{color:"#510cf1"}}>collaboration</span> with<span style={{color:"#510cf1"}}>QNOVATE Labs ?</span></h3>
+<h3 className='text-left'>Would you like to corporate <span style={{color:"#510cf1"}}>collaboration</span> with <span style={{color:"#510cf1"}}>QNOVATE Labs ?</span></h3>
 <p className='text-left collaborate-text'>Collaboration is the practice of working together towards a common goal or purpose. While teams or individuals might collaborate on a one-time basis to achieve a short-term goal, collaboration as a company-wide practice involves creating connections over time. </p>
 <a href="/collaborate" target="_blank" className='p-2 collaboratebtn'> Register </a>
 </div>

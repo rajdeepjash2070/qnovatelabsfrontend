@@ -13,7 +13,7 @@ function App() {
     pname: "",
     contactnumber: "",
     email: "",
-    password: "",
+ 
     course: [],
     coursemode: [],
     age: "",
@@ -34,7 +34,7 @@ function App() {
       pname: String(inputs.pname),
       contactnumber: Number(inputs.contactnumber),
       email: String(inputs.email),
-      password: String(inputs.password),
+ 
       course: String(inputs.course),
       coursemode: String(inputs.coursemode),
       age: String(inputs.age),
@@ -94,16 +94,11 @@ function App() {
           </div>
           <div className="col-md-4">
             <label for="inputEmail4" className="form-label">
-              User Name(email){" "}
+             Email
             </label>
             <input type="email" value={inputs.email} onChange={handleChange} className="form-control" name="email" id="inputEmail4" />
           </div>
-          <div className="col-md-4">
-            <label for="inputEmail4" className="form-label">
-              Password
-            </label>
-            <input type="password" value={inputs.password} onChange={handleChange} name="password" className="form-control" />
-          </div>
+         
           <div className="col-md-6">
             <label for="inputState" className="form-label">
               COURSE

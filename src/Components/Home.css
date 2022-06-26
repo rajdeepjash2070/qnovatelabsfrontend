@@ -119,6 +119,7 @@ color: #2b0070;
   height: 400px;
  width: 500px;
 }
+
 .techforkids img{
   height: 100%;
   width: 100%;
@@ -198,8 +199,14 @@ background-color: white;
    
    height: 200px;
   }
+
   .our-educators-text{
     margin-left: -30px;
+    margin-top: 0px;
+    }
+ 
+    .our-educators-text a{
+      font-size: 15px;
     }
   .kids-learn .card{
     height: 350px;
@@ -284,7 +291,7 @@ margin-left: -90px;
 .ataltinkeringlab iframe{
 height: 300px;
 width: 400px;
-margin-top: 100px;
+margin-top: 15px;
 border-radius: 20px;
 }
 
@@ -485,7 +492,7 @@ width: 85%;
 
 
 .provide-text{
-margin-top: 70px;
+
   padding: 10px 10px 10px 10px;
 
  
@@ -621,7 +628,7 @@ height: 350px;
   font-size: 20px;
 }
 .our-educators{
-  margin-top: 100px;
+
 width: 85%;
 
 }
