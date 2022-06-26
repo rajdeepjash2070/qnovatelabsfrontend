@@ -24,10 +24,11 @@ function Footer() {
                     </div>
                     <div class=" col-sm-4 col-md col-sm-4  col-12 col">
                         <h5 class="headin5_amrc col_white_amrc pt2" style={{color:"white"}}>Contact Us</h5>
-                         <p>Phone No: +91 7501541670 </p>
-                        <p>+91 8250186278</p>
-                        <p><strong>Email : </strong> contact@qnovatelabs.com</p>
-                        <p>Campus:11, KIIT-TBI, Room No:301, Patia, Bhubanewar, Odisha, 751024</p>
+                       <p className='footer-phone' style={{fontSize:"18px"}}>Phone No:</p>
+                        <p className='footer-phone' style={{fontSize:"18px"}}>   +91 7501541670</p>
+                        <p className='footer-phone' style={{fontSize:"18px"}}>  +91 8250186278</p>
+                        <p style={{fontSize:"18px"}}><strong>Email : </strong> contact@qnovatelabs.com</p>
+                        <p style={{fontSize:"18px"}}>Campus:11, KIIT-TBI, Room No:301, Patia, Bhubanewar, Odisha, 751024</p>
 
 
                     </div>
