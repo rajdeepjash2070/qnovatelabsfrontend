@@ -103,7 +103,9 @@ const Home = () => {
     
 <div className='d-flex justify-content-center'>
     <div className='techforkids row' style={{marginTop:"50px"}}>
-    
+    <div className='col-md-6'>
+    <img src={Techforkids} alt="tech for kids"/>
+     </div>
     <div className="provide-text col-sm-6 p-2">
     
     <h1 className='text-left p-2'>Technology For <span>Kids</span></h1>
@@ -122,9 +124,7 @@ const Home = () => {
     today!
     </p>
     </div>
-    <div className='col-md-6'>
-   <img src={Techforkids} alt="tech for kids"/>
-    </div>
+  
     </div>
 
     </div>
