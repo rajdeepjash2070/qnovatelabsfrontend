@@ -406,7 +406,7 @@ problem-solving strategies and hands-on project-based learning. QNOVATE Labs is 
  <a href='/bookyourfreesession'><button type="button" class="btn"><i class="fa-solid fa-rocket-launch"></i>Book Your Free Session </button>
  </a>
 </div>
-<div className='col-md-6 column-img'><img className="img-fluid" src={Oureducators}/></div>
+<div className='col-md-6 column-img mt-4'><img className="img-fluid" src={Oureducators}/></div>
 </div>
 </div>
 <div className='d-flex justify-content-center'>
