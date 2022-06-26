@@ -56,7 +56,7 @@ const Home = () => {
    <div className='homebotanime'>
     <div><img src={Homeimg}  class="img-fluid"/>
     </div>
-    <div className="home-text text-right">Welcome to the <span>Future World</span>
+    <div className="home-text text-right mt-4">Welcome to the <span>Future World</span>
     <h3 className='mt-2'><span style={{color:"rgb(111, 0, 255)"}}>Enroll to </span> our classes and <span style={{color:"rgb(111, 0, 255)"}}>develop yourself, </span>be valuable</h3>
     <div className='home-book'>
     <a href="/bookyourfreesession" class="btn-shine" target="_blank"> Book Your Free Session </a>
