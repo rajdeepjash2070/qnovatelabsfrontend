@@ -56,7 +56,7 @@ const Home = () => {
    <div className='homebotanime'>
     <div><img src={Homeimg}  class="img-fluid"/>
     </div>
-    <div className="home-text text-right mt-4">Welcome to the <span>Future World</span>
+    <div className="home-text text-right">Welcome to the <span>Future World</span>
     <h3 className='mt-2'><span style={{color:"rgb(111, 0, 255)"}}>Enroll to </span> our classes and <span style={{color:"rgb(111, 0, 255)"}}>develop yourself, </span>be valuable</h3>
     <div className='home-book'>
     <a href="/bookyourfreesession" class="btn-shine" target="_blank"> Book Your Free Session </a>
@@ -80,21 +80,15 @@ const Home = () => {
     <div className='col-md-6'>
     <div className='text-left atl-text'>Why  Needs <span style={{color:"rgb(88, 0, 230)"}}>ATAL TINKERING LAB (ATL) ?</span></div>
     <p className='mt-4'>
-    ATAL Tinkering Lab is designed to help and nurture innovation amongst young innovators. The scheme enables students
-     to explore new ideas, test them and follow the ‘learning by doing approach.Innovation
-     and entrepreneurship have
-     become an integral part of our
-     nation, establishing the
-     ATAL Tinkering Lab (ATL) in
-     schools, colleges, and physical
-     innovation centers has made technology and innovation accessible to the students right from a young age. Atal Tinkering Lab is the 
-       flagship initiative of the ATAL Innovation Mission (AIM), the Government of India to cultivate an innovative
-       mindset amongst high school students across the country. From ATL students can improve practical intelligence.
-        Makes students active learners. Boosts their 
-    confidence. Develops logical and analytical abilities and helps students to develop Science & math Intuition. 
+    Innovation and entrepreneurship have become an integral part of our nation, establishing the ATAL Tinkering Lab (ATL)
+     in schools, colleges, and physical innovation centers have made technology and innovation accessible to the 
+     students right from a young age. Atal Tinkering Lab is a flagship initiative of the ATAL Innovation Mission (AIM),
+      the Government of India to cultivate an innovative mindset amongst high school students across the country. 
+      ATAL Tinkering Lab is designed to help and nurture innovation amongst young minds. 
+    The scheme enables students to explore new ideas, test them and follow the ‘learning by doing approach'.
     </p>
     </div>
-    <div className='col-md-6 atlvideo'><iframe src="https://www.youtube.com/embed/oHu91kgP6-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div className='col-md-6 atlvideo'><iframe className='img-fuild' src="https://www.youtube.com/embed/oHu91kgP6-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     </div>
     </div>
 
