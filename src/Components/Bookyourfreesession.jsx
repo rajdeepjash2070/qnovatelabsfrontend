@@ -29,7 +29,7 @@ function App() {
   });
   const sendRequest = async () => {
 
-    await axios.post("http://localhost:8000/bookyourfreesessionbackend", {
+    await axios.post("/bookyourfreesessionbackend", {
       firstname: String(inputs.firstname),
       pname: String(inputs.pname),
       contactnumber: Number(inputs.contactnumber),
