@@ -3,7 +3,7 @@ import axios from "axios"
 import { useEffect,useState } from 'react';
 
 import { Link, useNavigate } from 'react-router-dom';
-const url="/bookyourfreesessionbackend";
+const url="http://localhost:8000/bookyourfreesessionbackend";
 
  const fetchHandler= async()=>{
 
@@ -27,7 +27,7 @@ const Admin = () => {
     <div>
     <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/adminpasswordusernamef2893482e839i">Student Data</a>
+      <a class="navbar-brand" href="/adminpasswordusername6237ef9dc7e813318033b1249883">Student Data</a>
       <a class="navbar-brand" href="/buisnessdatapasswordusername6237ef9dc7e813318033b1249883">Buisness Data</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@ const Admin = () => {
                 <th scope="col" style={{color:"white"}}>Parent Name</th>
                 <th scope="col" style={{color:"white"}}>Contact Number</th>
                 <th scope="col" style={{color:"white"}}>Email</th>
-                <th scope="col" style={{color:"white"}}>Password</th>
+          
                 <th scope="col" style={{color:"white"}}>Course</th>
                 <th scope="col" style={{color:"white"}}>Course Mode</th>
                 <th scope="col" style={{color:"white"}}>Age</th>
@@ -78,7 +78,7 @@ const Admin = () => {
         <td scope='col'> {student.pname}</td>
          <td scope='col'>{student.contactnumber}</td>
          <td scope='col'>{student.email}</td>
-         <td scope='col'>{student.password}</td>
+        
          <td scope='col'>{student.course}</td>
          <td scope='col'>{student.coursemode}</td>
          <td scope='col'>{student.age}</td>

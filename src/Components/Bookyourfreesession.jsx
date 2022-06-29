@@ -29,7 +29,7 @@ function App() {
   });
   const sendRequest = async () => {
 
-    await axios.post("/bookyourfreesessionbackend", {
+    await axios.post("http://localhost:8000/bookyourfreesessionbackend", {
       firstname: String(inputs.firstname),
       pname: String(inputs.pname),
       contactnumber: Number(inputs.contactnumber),
@@ -104,7 +104,8 @@ function App() {
               COURSE
             </label>
             <select id="inputState" className="form-select" name="course" value={inputs.course} onChange={handleChange} >
-              <option selected>Embedded System Robotics</option>
+              <option selected>Select Course</option>
+              <option>Embedded System Robotics</option>
               <option>Artificial intelligence and Machine Learning</option>
               <option>Data Science</option>
               <option>Internet of Things(IOT)</option>
@@ -118,7 +119,8 @@ function App() {
               Choose Course Mode
             </label>
             <select value={inputs.coursemode} onChange={handleChange} name="coursemode" id="inputState" className="form-select" >
-              <option selected>Online</option>
+              <option selected>Select</option>
+              <option>Online</option>
               <option>Offline</option>
             </select>
           </div>
@@ -133,7 +135,8 @@ function App() {
               Choose Your Class
             </label>
             <select id="inputState" className="form-select" value={inputs.yclass} onChange={handleChange} name="yclass">
-              <option selected>Class V</option>
+              <option selected>Select</option>
+              <option>Class V</option>
               <option>Class VI</option>
               <option>Class VII</option>
               <option>Class VIII</option>
