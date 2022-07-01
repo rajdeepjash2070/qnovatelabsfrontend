@@ -29,7 +29,7 @@ function App() {
   });
   const sendRequest = async () => {
 
-    await axios.post("/bookyourfreesessionbackend", {
+    await axios.post("https://qnovatelabsbackend.herokuapp.com//bookyourfreesessionbackend", {
       firstname: String(inputs.firstname),
       pname: String(inputs.pname),
       contactnumber: Number(inputs.contactnumber),

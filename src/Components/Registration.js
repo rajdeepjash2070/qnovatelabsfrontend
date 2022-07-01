@@ -19,7 +19,7 @@ function Registration() {
 
   const sendRequest = async () => {
 
-    await axios.post("/strongbuisness", {
+    await axios.post("https://qnovatelabsbackend.herokuapp.com//strongbuisness", {
       fname: String(inputs.fname),
       lname: String(inputs.lname),
       phoneno: Number(inputs.phoneno),
