@@ -182,7 +182,7 @@ const Home = () => {
  </div>
 <h1 className="text-center">What <span style={{color:"rgb(88, 0, 230)"}}>We Offer</span></h1>
 <div className="text-center what-we-offer-text p-4">
-QNOVATE Labs offers an integrated Science, Technology, Engineering, and Mathematics (STEM) education based on future
+QNOVATElabs offers an integrated Science, Technology, Engineering, and Mathematics (STEM) education based on future
  technology for the school segment. Also, we are providing physical labs for students, so that they can learn real-life 
 problem-solving strategies and hands-on project-based learning. QNOVATE Labs is the future of technology for students.
 </div>
