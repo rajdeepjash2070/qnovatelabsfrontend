@@ -27,7 +27,7 @@ const Adminbuisness = () => {
     <div>
     <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/adminpasswordusernamef2893482e839i">Student Data</a>
+      <a class="navbar-brand" href="/adminpasswordusername6237ef9dc7e813318033b1249883">Student Data</a>
       <a class="navbar-brand" href="/buisnessdatapasswordusername6237ef9dc7e813318033b1249883">Buisness Data</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
