@@ -78,12 +78,12 @@ const Home = () => {
     <div className='row ataltinkeringlab'>
    
     <div className='col-md-6'>
-    <div className='text-left atl-text'>Why  Needs <span style={{color:"rgb(88, 0, 230)"}}>ATAL TINKERING LAB (ATL) ?</span></div>
+    <div className='text-left atl-text'>Why  Need <span style={{color:"rgb(88, 0, 230)"}}>ATAL TINKERING LAB (ATL) ?</span></div>
     <p className='mt-4'>
     Innovation and entrepreneurship have become an integral part of our nation, establishing the ATAL Tinkering Lab (ATL)
      in schools, colleges, and physical innovation centers have made technology and innovation accessible to the 
      students right from a young age. Atal Tinkering Lab is a flagship initiative of the ATAL Innovation Mission (AIM),
-      the Government of India to cultivate an innovative mindset amongst high school students across the country. 
+      to cultivate an innovative mindset amongst high school students across the country. 
       ATAL Tinkering Lab is designed to help and nurture innovation amongst young minds. 
     The scheme enables students to explore new ideas, test them and follow the ‘learning by doing approach'.
     </p>
